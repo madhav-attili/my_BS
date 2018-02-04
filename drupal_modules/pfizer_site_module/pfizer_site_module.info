@@ -1,0 +1,11 @@
+name = Pfizer Site Module
+description = This is the required default module for every Pfizer site.  Add dependencies, update hooks and update the service endpoint
+core = 7.x
+package = Pfizer Site Features
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = services
+features[ctools][] = services:services:3
+features[features_api][] = api:2
+features[services_endpoint][] = wf_endpoint
+project path = sites/all/modules/features

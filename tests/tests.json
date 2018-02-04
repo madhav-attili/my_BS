@@ -1,0 +1,78 @@
+{
+	"tests" : [
+	{
+		"path": "/",
+		"status": 200
+	},
+	{
+		"path": "/user",
+		"status": 301,
+		"destination": "/404"
+	},
+	{
+		"path": "/user/autocomplete",
+		"status": 301,
+		"destination": "/404"
+	},
+	{
+		"path": "/user/login",
+		"status": 301,
+		"destination": "/404"
+	},
+	{
+		"path": "/user/register",
+		"status": 301,
+		"destination": "/404"
+	},
+	{
+		"path": "/user/password",
+		"status": 301,
+		"destination": "/404"
+	},
+	{
+		"path": "/user/12065",
+		"status": 301,
+		"destination": "/404"
+	},
+	{
+		"path": "/user/12065/view",
+		"status": 301,
+		"destination": "/404"
+	},
+	{
+		"path": "/user/12065/delete",
+		"status": 301,
+		"destination": "/404"
+	},
+	{
+		"path": "/user/12065/edit",
+		"status": 301,
+		"destination": "/404"
+	},
+	{
+		"path": "/user/12065/cancel",
+		"status": 301,
+		"destination": "/404"
+	},
+	{
+		"path": "/user/12065/edit/account",
+		"status": 301,
+		"destination": "/404"
+	},
+	{
+		"path": "/user/reset/12065/946684800/_gtK_liGldfkSIm4XHOGP6phQxD2R7NcpnsaINVALID/login",
+		"status": 200    
+	},
+	{
+		"path": "/wf/user",
+		"status": 200 
+	},  
+	{
+		"path": "/pfizer-grv/user/register/ajax",
+		"status": 200
+	},
+	{
+		"path": "/pfizer-grv/us/user/thank-you/ajax",
+		"status": 200
+	}
+]}
